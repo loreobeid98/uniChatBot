@@ -1,0 +1,53 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://clustaar.com/wp-content/uploads/2019/03/Bots-for-University-admission-768x768.png",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to the University Bot",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Courses",
+      "data": "Courses",
+      "id": "Courses"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Majors",
+      "data": "Majors",
+      "id": "Majors"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "GPA Calculator",
+      "url": "https://www.online-calculator.com/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Visit our website",
+      "url": "https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-deploy-azure?view=azure-bot-service-4.0"
+    }
+  ]
+}
